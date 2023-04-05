@@ -15,3 +15,23 @@ cv2.imshow('Piramit Bir Üst Seviye haliyle  Resim ',piramitustseviye)
 cv2.imshow('Piramit Bir Alt Seviye haliyle  Resim ',piramitaltseviye)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
+
+"""import cv2
+
+#resim üzerinde piramit oluşturma işlemi.
+
+# Resmi okuyun
+img = cv2.imread('doga.jpg')
+
+# Piramit oluşturun
+pyramid = [img]
+for i in range(4):
+    pyramid.append(cv2.pyrDown(pyramid[-1]))
+
+# Piramidi gösterin
+for i in range(len(pyramid)):
+    cv2.imshow('Level ' + str(i), pyramid[i])
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()"""
