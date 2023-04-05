@@ -1,4 +1,4 @@
-#kullanıcağım OpenCV kütüphanesini import etttim
+#kullanıcağım OpenCV kütüphanesini import etttim.
 import cv2
 
 image = cv2.imread("doga.jpg") #resmi dosyadan orjinal hali ile okuma işlemi
