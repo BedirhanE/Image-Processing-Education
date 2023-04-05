@@ -11,7 +11,7 @@ print ("100x100'lük Alan İçin Mavi Renk Değeri:" + str(image.item (100,100,0
 print ("200x200'lük Alan İçin Yeşil Renk Değeri:" + str(image.item (200,200,1)))
 print ("200x200'lük Alan İçin Kırmızı Renk Değeri:" + str(image.item (200,200,2)))
 
-#resmime ait genişlik ve yükseklik değerlerini ekranda görüntülemek için
+#resmime ait genişlik ve yükseklik değerlerini ekranda görüntülemek için.
 yukseklik = image.shape[0]
 genislik = image.shape[1]
 print('Resim Yüksekliği (px)      :', yukseklik)
