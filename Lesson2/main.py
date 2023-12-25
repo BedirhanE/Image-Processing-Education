@@ -1,10 +1,14 @@
+#RESME CERCEVE EKLEME İSLEMİ
 
+
+#gerekli kütüphaneleri import ettim
 import cv2
 
 #cerceve rengini belirlediğim işlem
-cerceve_rengimiz=[144, 12, 63 ]
+cerceve_rengi=[144, 12, 63 ]
 
-resim=cv2.imread('kalem.jpg')
+
+resim=cv2.imread('kalem.jpg')#resmi okumak için ,resmi resim değişkenine atıyorum
 
 #çerceve işlemini yapacağım resmin yolu
 #cerceve=cv2.copyMakeBorder(resim,10,10,10,10,cv2.BORDER_CONSTANT,value=cerceve_rengimiz)

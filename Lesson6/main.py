@@ -8,8 +8,9 @@ kamera = cv2.VideoCapture(0)
 while (True):
     ret, videoGoruntu = kamera.read()
     cv2.imshow("Bilgisayar Kamerasi", videoGoruntu)
-    if cv2.waitKey(50) & 0xFF == ord('x'):
+    if cv2.waitKey(50) & 0xFF == ord('b'):#b tuşuna basıldığında döngüden çıkıyor ve kamera kapanıyor.
         break
 
-kamera.release()
-cv2.destroyAllWindows()
+cv2.VideoCapture(0).release()#kamerayı serbest bırakıyoruz
+kamera.release()#kamerayı serbest bırakma işlemi.
+cv2.destroyAllWindows()#tüm pencereleri kapatma işlemi.

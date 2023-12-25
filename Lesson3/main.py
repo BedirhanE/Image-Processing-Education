@@ -2,7 +2,7 @@
 
 #kullanıcağım kütüphaneleri import ettim
 import  cv2
-import  numpy as np
+#import  numpy as np
 
 #resmi kaydet fonksiyonu içerisinde jpg formatındaki resmi farklı kalitelerde kaydetme işlemini ve
 #png yi sıkıştırma işlemi yöntemini bu fonksiyon içerisinde yapmış oldum
@@ -13,7 +13,6 @@ def resmiKaydet(path,image,jpg_quality=None,png_compress=None):
         cv2.imwrite(path,image,[int(cv2.IMWRITE_PNG_COMPRESSION),png_compress])
     else:
         cv2.imwrite(path,image)
-
 
 #resmiKaydet fonksiyonunu  ana fonksiyon içerisinde çağırıp kullanıyorum
 def main():

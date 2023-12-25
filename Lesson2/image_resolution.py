@@ -6,7 +6,7 @@ import cv2
 resim=cv2.imread('doga.jpg')#resmi okumak için ,resmi resim değişkenine atıyorum
 
 
-cozunurluk=480,720
+cozunurluk=480,720  # Resme ait Pencere boyutunu belirledim
 
 
 resim_genislik_olcegi = cozunurluk[0] / resim.shape[1]
